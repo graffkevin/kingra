@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/kingra/static/css/main.073c9b0a.css",
-    "main.js": "/kingra/static/js/main.df8777d2.js",
+    "main.css": "/kingra/static/css/main.7575b58b.css",
+    "main.js": "/kingra/static/js/main.cbf5f27d.js",
     "static/js/787.bff2fe87.chunk.js": "/kingra/static/js/787.bff2fe87.chunk.js",
-    "static/media/logo.svg": "/kingra/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/graff_2020.pdf": "/kingra/static/media/graff_2020.3348ef25c803a4e656b9.pdf",
+    "static/media/MapsicleMap.png": "/kingra/static/media/MapsicleMap.db5e856efb9621bd5534.png",
+    "static/media/letg.png": "/kingra/static/media/letg.f032c6b2206a1858fc03.png",
+    "static/media/coexya.png": "/kingra/static/media/coexya.07cbe76e0622124c50ba.png",
+    "static/media/cci.png": "/kingra/static/media/cci.b03a72983fcf1873b8a5.png",
+    "static/media/univ_caen.jpg": "/kingra/static/media/univ_caen.b38520b1597af453202d.jpg",
+    "static/media/Raleway-ExtraLight.ttf": "/kingra/static/media/Raleway-ExtraLight.79046b326aac3deaf1ea.ttf",
+    "static/media/backGroundThesis.jpg": "/kingra/static/media/backGroundThesis.3552597beeb1b3daf127.jpg",
     "index.html": "/kingra/index.html",
-    "main.073c9b0a.css.map": "/kingra/static/css/main.073c9b0a.css.map",
-    "main.df8777d2.js.map": "/kingra/static/js/main.df8777d2.js.map",
+    "main.7575b58b.css.map": "/kingra/static/css/main.7575b58b.css.map",
+    "main.cbf5f27d.js.map": "/kingra/static/js/main.cbf5f27d.js.map",
     "787.bff2fe87.chunk.js.map": "/kingra/static/js/787.bff2fe87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.df8777d2.js"
+    "static/css/main.7575b58b.css",
+    "static/js/main.cbf5f27d.js"
   ]
 }
