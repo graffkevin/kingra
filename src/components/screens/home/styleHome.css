@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://gist.github.com/eugeneyeo1994/8c3b0c4e2b960af4173d2ec4fe99885a.js');
+
+@font-face {
+  font-family: 'Raleway-ExtraLight';
+  src: url('../../content/police/Raleway-ExtraLight.ttf');
+}
+
+.mainContainer {
+  position: fixed;
+  left:0;
+  height: 100vh;
+  width:100%;
+  bot:0;
+
+  background: rgb(46,52,69);
+  background-image:  radial-gradient(
+      ellipse at top, 
+      rgba(46,52,69,0.39539565826330536) 0%, rgba(46,52,69,0.7931547619047619) 52%, rgba(46,52,69,1) 100%),
+    url("../../content/assets/MapsicleMap.png");
+}
+
+.borderCol {
+  border-right:1px solid #DFDFDF;
+  border-left:1px solid #DFDFDF;
+}
+
+.brandHome{
+  margin-left: 22.5%;
+  margin-right: 30%; 
+  margin-top: 5%;
+  max-width: 55%;
+  min-width: 55%;
+  /* left: 30vh; */
+  /* right: 30vh; */
+  position: relative;
+}
+
+@media (max-width: 1347px) {
+  .titleHome {
+    font-size: 60px!important;
+  }
+
+  .subtitleHome {
+    font-size: 45px!important;
+  }
+ 
+}
+
+@media (max-width: 1020px) {
+  .titleHome {
+    font-size: 50px!important;
+  }
+
+  .subtitleHome {
+    font-size: 35px!important;
+  }
+
+  .contentItemsHome {
+    overflow-y: scroll;
+  }
+ 
+}
+
+.titleHome {
+  font-family: 'Raleway-ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 84px;
+  line-height: 99px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subtitleHome {
+  /* Headings/H2/ExtraLight */
+
+  font-family: 'Raleway-ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Primary Green/Gradient */
+
+  background: linear-gradient(90deg, #73CCA8 0%, #BFE9FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.contentItemsHome{
+
+  /* Headings/H5-Body/Body/SemiBold */
+
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+
+  /* Black&White/White */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-top: 10%;
+  max-width: 95%;
+  min-width: 90%;
+  margin-left: 1.5%;
+  margin-right: 1%;
+
+  max-height: 28vh;
+}
+
+
+
+
+.colSkillHome {
+  margin-top: 5% !important;
+  border-right: 1px solid White;
+  top:30em !important;
+  height: 10% !important;
+}
+.colSkillHome:before{
+  height  : 1px;
+}
+.colSkillHome:last-child {
+  border-right: none;
+}
+
+.skillRowContent{
+  height: 20px;
+  display: flex;
+  padding-left: 15%;
+}
+
+
+.skillTextContent{
+  /* Headings/H6-Icons/Bold */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* Black&White/White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  order: 1;
+  display: inline-flex;
+  margin-left: 20%;
+}
+
+.homeButtonContainer {
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+
+
+.buttonHome {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 150%;
+  /* Primary Green/300 (Main) */
+  background: #A1E6C9;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  background: none;
+  border: solid White 1px;
+}
+
+.txtButtonHome {
+  /* Button */
+  width: 111px;
+  height: 23px;
+  /* Headings/H5-Body/Title/Bold */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 23px;
+  /* Black&White/Black */
+  color: #F8FAFC;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 0%;
+}
+
+.buttonHome:hover {
+  background: #A1E6C9;
+  border: solid black 1px;
+}
+.buttonHome:hover .txtButtonHome {
+   color: #000000;
+}

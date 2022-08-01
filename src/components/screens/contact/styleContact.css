@@ -1,0 +1,39 @@
+.formContainer {
+    position: relative;
+    left: 30%;
+    right: 30%;
+    margin-top: 10%;
+}
+
+.spaceRow {
+    margin-top:2%!important;
+    border-radius: 30px;
+}
+
+.btnContac {
+    margin-top:4%;
+    background: none;
+    padding: 8px 32px;
+    gap: 8px;
+
+    width: 190px !important;
+    height: 56px!important;
+
+    margin-top: 1% !important;
+    margin-left: 15% !important;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #F8FAFC;
+    border: solid 1px #F8FAFC;
+}
+
+.btnContac:hover {
+    background: #A1E6C9;
+    color: black;
+    border: solid 1px black;
+}
